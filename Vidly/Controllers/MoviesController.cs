@@ -28,7 +28,7 @@ namespace Vidly.Controllers
         {
             var viewModel = new MovieViewModel
             {
-                Movies = _context.Movies.ToList()
+                Movies = _context.Movies.Include(m => m.Genre).ToList()
             };
             return View(viewModel);
         }

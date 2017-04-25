@@ -27,7 +27,7 @@ namespace Vidly.Models
         public DateTime? DateAdded { get; set; }
 
         [Required]
-        [Display(Name = "Genre")]
+        [Display(Name = "Genres")]
         public int GenresId { get; set; }
 
         public Genres Genre { get; set; }
