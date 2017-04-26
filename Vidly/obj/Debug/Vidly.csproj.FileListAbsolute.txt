@@ -94,3 +94,5 @@ C:\Projects\asp.NET\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Projects\asp.NET\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Projects\asp.NET\Vidly\Vidly\bin\AutoMapper.dll
 C:\Projects\asp.NET\Vidly\Vidly\bin\AutoMapper.xml
+c:\Projects\asp.NET\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+c:\Projects\asp.NET\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivinLicenseToApplicationUser.resources

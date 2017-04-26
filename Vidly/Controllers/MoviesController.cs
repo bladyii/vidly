@@ -26,16 +26,16 @@ namespace Vidly.Controllers
      
         public ActionResult Index()
         {
-            var viewModel = new MovieViewModel
-            {
-                Movies = _context.Movies.Include(m => m.Genre).ToList()
-            };
-            return View(viewModel);
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("List");
+
+            return View("ReadOnlyList");
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Save(Movie movie)
         {
 
@@ -68,6 +68,7 @@ namespace Vidly.Controllers
             return RedirectToAction("Index", "Movies");
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
  
@@ -83,7 +84,7 @@ namespace Vidly.Controllers
 
         }
 
-
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
 
