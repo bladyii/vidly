@@ -96,3 +96,9 @@ C:\Projects\asp.NET\Vidly\Vidly\bin\AutoMapper.dll
 C:\Projects\asp.NET\Vidly\Vidly\bin\AutoMapper.xml
 c:\Projects\asp.NET\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 c:\Projects\asp.NET\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivinLicenseToApplicationUser.resources
+c:\Projects\asp.NET\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberToApplicationUser.resources
+c:\Projects\asp.NET\Vidly\Vidly\bin\Glimpse.Ado.dll
+c:\Projects\asp.NET\Vidly\Vidly\bin\Glimpse.AspNet.dll
+c:\Projects\asp.NET\Vidly\Vidly\bin\Glimpse.Core.dll
+c:\Projects\asp.NET\Vidly\Vidly\bin\Glimpse.EF6.dll
+c:\Projects\asp.NET\Vidly\Vidly\bin\Glimpse.Mvc5.dll
